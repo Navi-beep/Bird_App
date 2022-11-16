@@ -8,7 +8,7 @@ export default function birddata() {
 
     return (
         <div className="row">
-        <table className="dflex container-fluid table table-dark table-striped mt-3 w-50">
+        <table className="dflex container-fluid table table-dark table-striped mt-3 w-50 text-center">
         <thead>
         <tr>
         {tableHeaders.map((th,i) => <th key={i}>{th}</th>)}

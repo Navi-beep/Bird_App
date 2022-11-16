@@ -6,8 +6,8 @@ export default function spacefacts() {
 
         <div className='row'>
         <div className="dflex container-fluid card" style={{width:'18em'}}>
-        <img src="https://via.placeholder.com/100
-C/O https://placeholder.com/" className="card-img-top mt-2" alt="..."/>
+        <img src="https://via.placeholder.com/100"
+             className="card-img-top mt-2" alt="placeholder image"/>
         <div className="card-body">
             <h5 className="card-title">Card title</h5>
             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
