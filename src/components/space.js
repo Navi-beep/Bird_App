@@ -13,7 +13,7 @@ export default function Spacefacts(props) {
         .then(data => {
             let spaceStuff = data;
             setSpaces(spaceStuff)
-            console.log(spaceStuff);
+            //console.log(spaceStuff);
         });
             
 
