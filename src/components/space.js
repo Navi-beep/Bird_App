@@ -25,6 +25,7 @@ export default function Spacefacts(props) {
 
         <div className='row'>
             <div className="dflex container-fluid card" style={{width:'25em'}}>
+                <h2  className="text-center mt-2">Astronomy Photo of the day</h2>
             <img src={spaces.hdurl}
                 className="card-img-top mt-2" alt="placeholder image"/>
             <div className="card-body">
@@ -32,7 +33,7 @@ export default function Spacefacts(props) {
                 <p className="card-text text-center">{spaces.explanation}</p>
             </div>
             <ul className="list-group list-group-flush">
-                <li className="list-group-item text-center">Photo date: {spaces.date}</li>
+                <li className="list-group-item text-center">{spaces.date}</li>
                 <li className="list-group-item text-center">Copyright: {spaces.copyright}</li>
             </ul>
             <div className="card-body">
