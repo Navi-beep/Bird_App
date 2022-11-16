@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 import {useState} from 'react'
 
 
+console.log('this is cats')
+
 
 export default function Spacefacts(props) {
 
@@ -11,15 +13,13 @@ export default function Spacefacts(props) {
         fetch(`https://go-apod.herokuapp.com/apod`)
         .then(res => res.json())
         .then(data => {
-            let spaceStuff = data;
-            setSpaces(spaceStuff)
-            
+            setSpaces(data)
+            console.log(data) 
         });
-            
+        
+    }, []);
 
-    });
-
-    //console.log(spaces)
+    
 
     return (
 
