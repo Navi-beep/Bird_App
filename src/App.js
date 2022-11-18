@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/navbar'
 import Birddata from './components/birddata'
 import Spacefacts from './components/space';
-import {useState} from 'react'
+import Meme from './components/meme';
 
 
 
@@ -16,6 +16,7 @@ function App(props) {
     </div>
     <Birddata/>
     <Spacefacts/>
+    <Meme/>
     </>
   );
 }
