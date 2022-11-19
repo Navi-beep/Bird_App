@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/navbar'
 import Birddata from './components/birddata'
 import Spacefacts from './components/space';
-import Meme from './components/meme';
+import Cat from './components/cat';
 import {Routes, Route} from 'react-router-dom'
 
 
@@ -16,7 +16,7 @@ function App(props) {
     <img src={logo} className="App-logo" alt="logo" />
     <Routes>
     <Route path='/birddata' element={<Birddata/>} /> 
-    <Route path='/meme' element={<Meme/>} />
+    <Route path='/cat' element={<Cat/>} />
     <Route path='/space' element={<Spacefacts/>} />  
     
     </Routes>
