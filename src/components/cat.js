@@ -22,7 +22,7 @@ export default function Cat(props){
         <div className="card dflex container-fluid mt-3 mb-2" style={{width:'25em'}}>
             <img src="http://placekitten.com/g/200/200" className="card-img-top mt-3" alt="..."/>
             <div className="card-body">
-                <h5 className="card-title text-center">Random Cat Fact</h5>
+                <h5 className="card-title text-center">Random Cat Fact!</h5>
                 <p className="card-text">{cats.fact}</p>
             </div>
         </div>
