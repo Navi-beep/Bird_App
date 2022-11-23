@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react';
 
-export default function Cat(props){
+export default function Cat(){
 
     const [cats, setCats] = useState([]);
 
