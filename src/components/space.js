@@ -36,9 +36,6 @@ export default function Spacefacts(props) {
                 <li className="list-group-item text-center">{spaces.date}</li>
                 <li className="list-group-item text-center">Copyright: {spaces.copyright}</li>
             </ul>
-            <div className="card-body">
-                <a href="#" className="card-link">{spaces.hdurl}</a>
-            </div>
             </div>
         </div>
 
