@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-let tableHeaders = ['Species','Conservation Status', 'Latin Name', 'Habitat']
+//let tableHeaders = ['Species','Conservation Status', 'Latin Name', 'Habitat']
 
 export default function birddata() {
 
