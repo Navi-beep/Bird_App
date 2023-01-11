@@ -17,7 +17,8 @@ function App(props) {
     <Routes>
     <Route path='/birddata' element={<Birddata/>} /> 
     <Route path='/cat' element={<Cat/>} />
-    <Route path='/space' element={<Spacefacts/>} />  
+    <Route path='/space' element={<Spacefacts/>} />
+     
     
     </Routes>
 

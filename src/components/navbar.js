@@ -16,6 +16,7 @@ export default function Navbar() {
             <Link className="nav-link active" aria-current="page" to="/birddata">Home</Link>
             <Link className="nav-link" to="/cat">Cat time</Link>
             <Link className="nav-link" to="/space">Space Stuff</Link>
+            <Link className="nav-link" to="/birddata">Dumb Stuff</Link>
         </div>
         </div>
         </div>
