@@ -34,3 +34,5 @@ export default function Cat(){
 
 //cat image from - https://placekitten.com/
 //cat api from - Cat Facts API https://documenter.getpostman.com/view/1946054/S11HvKSz#b5e4e9b6-96c0-4690-8a2a-274ac2d1020c
+
+// i should update this soon, 
